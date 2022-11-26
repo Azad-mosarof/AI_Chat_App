@@ -20,5 +20,5 @@ def get_answer():
     )["choices"][0]["text"])
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
     
